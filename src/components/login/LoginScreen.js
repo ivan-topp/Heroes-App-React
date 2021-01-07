@@ -12,7 +12,7 @@ export const LoginScreen = ({ history }) => {
     const handleLogin = (e) => {
         e.preventDefault();
         if(name.trim() !== ''){
-            const lastPath = localStorage.getItem('lastPath') || '/';
+            const lastPath = localStorage.getItem('lastPath') || '/Heroes-App-React/';
             dispatch({
                 type: types.LOGIN,
                 payload:{
