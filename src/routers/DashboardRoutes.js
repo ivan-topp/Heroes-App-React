@@ -12,11 +12,11 @@ export const DashboardRoutes = () => {
             <Navbar />
             <div className="container">
                 <Switch>
-                    <Route exat path="/Heroes-App-React/marvel" component={ MarvelScreen }/>
-                    <Route exat path="/Heroes-App-React/hero/:heroeId" component={ HeroScreen }/>
-                    <Route exat path="/Heroes-App-React/dc" component={ DcScreen }/>
-                    <Route exat path="/Heroes-App-React/search" component={ SearchScreen }/>
-                    <Redirect to="/Heroes-App-React/marvel" />
+                    <Route exat path="/marvel" component={ MarvelScreen }/>
+                    <Route exat path="/hero/:heroeId" component={ HeroScreen }/>
+                    <Route exat path="/dc" component={ DcScreen }/>
+                    <Route exat path="/search" component={ SearchScreen }/>
+                    <Redirect to="/marvel" />
                 </Switch>
             </div>
         </>

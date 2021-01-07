@@ -13,7 +13,7 @@ export const PublicRoute = ({
                 (props) => (
                     ( !isAuthenticated )
                         ? <Component {...props} />
-                        : <Redirect to="/Heroes-App-React/" />
+                        : <Redirect to="/" />
                 )
             }
         />
